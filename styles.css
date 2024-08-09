@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body{
+    font-family:'Montserrat';font-size: 22px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://susanstripling.com/wp-content/uploads/2023/12/luxury-wedding-venues-NYC-Cipriani.jpg");
+    background-size:cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Playlist'; font-size: 50px;
+    color: rgb(51, 7, 91);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:'Montserrat';font-size: 20px;
+}
+
+main {
+    text-align: center;
+    padding: 100px 80px;
+    transition: transform 0.5s ease-in-out; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family:'Montserrat';font-size: 100px;
+    font-weight: 700;
+    color: #ddd;
+    
+}
+
+p {
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.buttons {
+    margin-bottom: 40px;
+}
+
+button {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+button.explore {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+button.organize {
+    background-color: #250042;
+    color: #fff;
+}

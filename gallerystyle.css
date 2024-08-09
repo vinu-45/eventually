@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(' https://fonts.cdnfonts.com/css/playlist ');
+
+body{
+    font-family:'Montserrat';font-size: 22px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://img.freepik.com/free-photo/gorgeous-italian-hall-with-paintings-wall_8353-656.jpg?w=996&t=st=1722480144~exp=1722480744~hmac=27560f705f8a718ee43e6d4c50d8619ea193bbd0df7cfe9aa43df97b9a85e5fc");
+    background-size:contain;
+    background-attachment: fixed;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Playlist'; font-size: 50px;
+    color: rgb(51, 7, 91);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:'Montserrat';font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family:'Montserrat';font-size: 80px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.image-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.image-card p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+}

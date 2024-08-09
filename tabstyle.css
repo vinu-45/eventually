@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(' https://fonts.cdnfonts.com/css/playlist ');
+
+body{
+    font-family:'Montserrat';font-size: 22px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://img.freepik.com/free-photo/luxurious-dinner-hall-with-large-crystal-chandelier_8353-565.jpg?w=996&t=st=1722479598~exp=1722480198~hmac=22c979d4db8d3466d1a95d9f5a9626f120cef104529b5aa7c5468155faa09bfb");
+    background-size:contain;
+    background-attachment: fixed;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Playlist'; font-size: 50px;
+    color: rgb(51, 7, 91);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:'Montserrat';font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab {
+    display: block;
+    width: 100px;
+    padding: 100px;
+    margin: 50px 0;
+    text-align: center;
+    background-color: #250252;
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #4504be;
+}

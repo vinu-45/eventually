@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(' https://fonts.cdnfonts.com/css/playlist ');
+
+body{
+    font-family:'Montserrat';font-size: 22px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://img.freepik.com/free-photo/luxurious-dinner-hall-with-large-crystal-chandelier_8353-565.jpg?w=996&t=st=1722479598~exp=1722480198~hmac=22c979d4db8d3466d1a95d9f5a9626f120cef104529b5aa7c5468155faa09bfb");
+    background-size:contain;
+    background-attachment: fixed;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Playlist'; font-size: 50px;
+    color: rgb(51, 7, 91);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:'Montserrat';font-size: 20px;
+}
+
+.badge {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#content {
+    display:flex;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.events {
+    display: flex;
+    justify-content: center; /* Centering the tabs */
+    flex-wrap: wrap;
+}
+
+.event {
+    text-align: center;
+    margin: 20px;
+}
+
+.event img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border: 20px;
+}
+
+.event p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+#eventhehe {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-poster {
+    position: relative;
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center; /* Centering the tabs */
+    flex-wrap: wrap;
+}
+
+.event-poster img {
+    padding: 50px 20px;
+    height: 350px;
+    width: 400px;
+    display: block;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* Centering the tabs */
+    flex-wrap: wrap;
+}
+
+
+.event-details {
+    flex: 2;
+}
+
+.event-details h1 {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.rating .star {
+    color: #ffbb00;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.rate-btn {
+    padding: 10px 20px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.formats, .languages, .meta {
+    margin: 10px 0;
+}
+
+
+.about-event {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.about-event h2 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.about-event p {
+    font-size: 18px;
+    margin: 0;
+}
